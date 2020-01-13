@@ -1,7 +1,6 @@
 auxpi
 auxpi.tar.gz
-*.json
-*.conf
+siteConfig.conf
 *.lock
 *.tmp
 .idea
@@ -32,3 +31,7 @@ main
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+db/auxpi.db
+conf/install.lock
+conf/siteConfig.json
